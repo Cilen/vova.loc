@@ -1,0 +1,15 @@
+
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed");
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
+//SCSS files
+@import "main";
+@import "footer";
+@import "history";
+@import "welcome";

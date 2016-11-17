@@ -1,0 +1,59 @@
+body {
+  font-family: $main-font;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $title-font;
+}
+.navbar {
+  margin-bottom: 0;
+}
+header {
+  color: $color-2;
+  height: 720px; }
+
+.title-block {
+  margin-top: 100px; }
+
+.subtitle-text {
+  margin-top: 100px;
+  margin-bottom: 20px; }
+
+.article {
+  padding: 0 10px;
+  border: solid 1px dimgrey; }
+
+.article-little-content {
+  margin-top: 15px; }
+
+#video {
+  position: absolute;
+  top: 51px;
+  z-index: -10;
+  min-width: 100%;
+  min-height: 100%;
+  overflow: hidden; }
+
+footer a:link {
+  color: $color-2; }
+
+footer a:visited {
+  color: $color-2; }
+
+.glyphicon-search {
+  font-size: 40px;
+}
+
+.text-center {
+  width: 400px;;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header {
+  background-color: $color-2;
+  height: 200px;
+  margin-top: -20px;
+}
